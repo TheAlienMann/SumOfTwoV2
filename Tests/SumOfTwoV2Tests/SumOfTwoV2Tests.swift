@@ -14,7 +14,7 @@ final class SumOfTwoV2Tests: XCTestCase {
         XCTAssertEqual(sumOfTwo([-2, 1, 3, 4, 6, 7, 8], 2), [-2, 4])
     }
 
-    func test_sumOfTwo_givenArrayWithMoreThan2Items_shouldFail() {
-        XCTAssertEqual(sumOfTwo([-2, 1, 3, 4, 6, 7, 8], 15), [-2, 4])
+    func test_sumOfTwo_givenArrayWithMoreThan2Items_returnsCorrectElements() {
+        XCTAssertEqual(sumOfTwo([-2, 1, 3, 4, 6, 7, 8], 15), [7, 8])
     }
 }
