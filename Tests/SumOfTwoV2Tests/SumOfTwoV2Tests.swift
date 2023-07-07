@@ -2,11 +2,7 @@ import XCTest
 @testable import SumOfTwoV2
 
 final class SumOfTwoV2Tests: XCTestCase {
-    func testExample() throws {
-        // XCTest Documenation
-        // https://developer.apple.com/documentation/xctest
-
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+    func test_sumOfTwo_givenAnEmptyArray_shouldReturnEmptyArray() {
+        XCTAssertEqual(sumOfTwo([], 12), [])
     }
 }
