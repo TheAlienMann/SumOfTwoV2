@@ -1,10 +1,16 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "SumOfTwoV2",
+    platforms: [
+      .iOS(.v13),
+      .macOS(.v10_13),
+      .watchOS(.v4),
+      .tvOS(.v11)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
