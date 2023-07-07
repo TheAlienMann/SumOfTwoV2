@@ -27,7 +27,8 @@ jobs:
         macos: ['macos-13']
         scheme: ['SumOfTwoV2']
         command: ['test']
-        platform: ['macOS', 'iOS', 'tvOS', 'watchOS', 'mac-catalyst']
+        platform: ['macOS', 'iOS']
+        # platform: ['macOS', 'iOS', 'tvOS', 'watchOS', 'mac-catalyst']
         # exclude:
         #   - macos: 'macos-11'
         #     xcode: '14.2'

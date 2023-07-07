@@ -7,9 +7,7 @@ let package = Package(
     name: "SumOfTwoV2",
     platforms: [
       .iOS(.v13),
-      .macOS(.v10_13),
-      .watchOS(.v4),
-      .tvOS(.v11)
+      .macOS(.v10_13)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
